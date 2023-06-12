@@ -1,6 +1,6 @@
 # miniBANK using Solidity
 
-The MiniBank project is just a simulation of working of banking functionalities like deposit , withdraw , check balance and transfer money from one ethereum adress to another.It is made during solidity and consist of one mapping and three functions and have conecepts of error handling (using require(), assert() and revert() statements).
+The MiniBank project is just a simulation of working of banking functionalities like deposit , withdraw , check balance and transfer money from one ethereum adress to another.It is made using solidity and consist of one mapping and three functions and have conecepts of error handling (using require(), assert() and revert() statements).
 
 ## Description
 This project aims to develop a decentralized banking system using Solidity, which is a programming language for developing smart contracts on the Ethereum blockchain. The project will create a simplified version of a banking system, deposit and withdraw funds, and check balance in basic financial transactions transparently
