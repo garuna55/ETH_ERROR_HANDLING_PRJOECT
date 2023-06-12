@@ -2,11 +2,12 @@
 pragma solidity >=0.8.5;
 
 contract miniBank {
+
     mapping(address=>uint)public balance;
     
 
     function deposit(address _to,uint _value)public payable returns(uint) {
-        require(_value<100000 ,"Please not more than 100000 ata time");//You can only deposit 100000 at a time.
+        require(_value<100000 ,"Please not more than 100000 at a time");//You can only deposit 100000 at a time.
         balance[_to]+= _value;
         return balance[_to];
     }
