@@ -7,14 +7,13 @@ contract miniBank {
     
 
     function deposit(address _to,uint _value)public payable returns(uint) {
-        require(_value<100000 ,"Please not more than 100000 at a time");//You can only deposit 100000 at a time.
+        assert(_value<100000);//You can only deposit 100000 at a time.
         balance[_to]+= _value;
         return balance[_to];
     }
 
     function withdraw(address _from, uint _value)public payable {
-        require(balance[_from]>=_value, "Insufficient Funds");//You cannot withdraw more than what you have.
-       
+        require(balance[_from]>=_value,"You are broke.");//You cannot withdraw more than what you have.
         balance[_from]-=_value;
     }
 
@@ -23,9 +22,6 @@ contract miniBank {
         balance[_from]-= _value;
         balance[_to] += _value;  
     }
-
-
-
 
 
 }
