@@ -5,10 +5,9 @@ The MiniBank project is just a simulation of working of banking functionalities 
 ## Description
 This project aims to develop a decentralized banking system using Solidity, which is a programming language for developing smart contracts on the Ethereum blockchain. The project will create a simplified version of a banking system, deposit and withdraw funds, and check balance in basic financial transactions transparently
 ## Getting Started
-## Account Creation: 
-* Users can create an account by providing their personal information, such as name, address, and identification details. Each account will be associated with a unique Ethereum address.
 
-* Deposits and Withdrawals: Account holders can deposit funds into their accounts, increasing their balance. They can also withdraw funds, decreasing their balance. The system ensures sufficient funds for withdrawals and prevents overdrafts.
+
+* Deposits and Withdrawals: We can deposit funds into their accounts, increasing their balance. They can also withdraw funds, decreasing their balance. The system ensures sufficient funds for withdrawals and prevents overdrafts.
 
 * Smart Contract Implementation: Solidity is used to develop smart contracts that define the logic and rules of the MiniBank system. These smart contracts are deployed on the Ethereum blockchain, ensuring transparency and immutability.
 
