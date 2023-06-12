@@ -73,7 +73,7 @@ Setting up Remix:
 * Switch to the "Deploy & run transactions" tab in Remix.
 * Deploy the compiled contract by clicking the "Deploy" button.
 
-5. Interacting with the Token:
+5. Interacting with the Account:
 
 * Utilize the Remix IDE to interact with the deployed token contract.
 * Use the deposit , withdraw , Balance, transfer functions for depositing , withdrawing , checking balance and transfer .  
